@@ -1,9 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native';
+import ApiCall from '../components/apiCall';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      
+        <ApiCall />
     </View>  
   )
 }
